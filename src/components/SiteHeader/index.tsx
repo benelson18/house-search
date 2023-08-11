@@ -1,6 +1,6 @@
 import ModeToggle from "../ModeToggle";
 import NavLinks from "../NavLinks";
-import User from "../User";
+import UserAvatar from "../UserAvatar";
 
 export default function SiteHeader() {
   return (
@@ -9,7 +9,7 @@ export default function SiteHeader() {
         <NavLinks />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <ModeToggle />
-          <User />
+          <UserAvatar />
         </div>
       </div>
     </header>

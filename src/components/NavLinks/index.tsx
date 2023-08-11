@@ -24,7 +24,7 @@ export default function NavLinks() {
           alt="House Search Icon"
           className={styles[`logo-${resolvedTheme!}`]}
         />
-        <span className="font-bold">House Search</span>
+        <span className="font-bold hidden sm:inline">House Search</span>
       </Link>
       {loggedIn && (
         <nav className="flex items-center space-x-6 text-sm font-medium">

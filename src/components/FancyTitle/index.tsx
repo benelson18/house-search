@@ -20,5 +20,9 @@ export default function FancyTitle({
     );
   });
 
-  return <div className={`${styles.wrapper} ${styles.wave} ${className}`}>{content}</div>;
+  return (
+    <div className={`${styles.wrapper} ${styles.wave} ${className} whitespace-nowrap`}>
+      {content}
+    </div>
+  );
 }
