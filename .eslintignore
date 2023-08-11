@@ -1,0 +1,7 @@
+public/
+dist/
+node_modules/
+*.css
+*.md
+examples/
+next-env.d.ts
