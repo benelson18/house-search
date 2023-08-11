@@ -2,3 +2,4 @@ dist
 .next
 coverage
 node_modules
+src/lib/ui/
